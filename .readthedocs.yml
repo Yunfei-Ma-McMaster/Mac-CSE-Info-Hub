@@ -1,0 +1,11 @@
+version: 2
+
+# Build documentation with Sphinx.
+sphinx:
+  configuration: source/conf.py
+
+# Use Python 3.x for the build environment.
+python:
+  version: "3.8"
+  install:
+    - requirements: docs/requirements.txt
